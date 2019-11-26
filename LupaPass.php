@@ -1,20 +1,8 @@
 <!DOCTYPE html>
-<?php
-if(isset($_POST['submit'])){
-  $nim = $_POST['nim'];
-  $pass = $_POST['password'];
-  if($nim=="admin" && $pass=="admin"){
-    echo("nim dan password benar!");
-  }
-  else{
-    echo("nim dan password salah!");
-  }
-}
-?>
 <html>
 
 <head>
-    <title>Login</title>
+    <title>Lupa Password</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="logo.png">
@@ -98,24 +86,29 @@ if(isset($_POST['submit'])){
       <fieldset class="col-md-10">
           <div style="display: block;">
                 <img style=" height: 20%;width: 20%;" src="logo.png">
-          <div>
+          </div>
             <p>
-              <div><input type="text" placeholder="1301174472" class="text-center" name="nim" label="NIM"></div>
+              <div class="form-group">
+                <label for="nim">NIM</label>
+                <input type="text" id="nim" placeholder="1301174472" class="text-center" name="nim" label="NIM">
+              </div>
             </p>
             <p>
-              <div><input type="checkbox" placeholder="Pilih Pertanyaan" class="text-center" name="hint" label="Hint"></div>
+              <label for="hint">Hint</label>
+              <select name="hint">
+                <option>1. apa kepanjangan KFC?</option>
+              </select>
             </p>
             <p>
+              <label for="jawaban">Jawaban</label>
               <div><input type="text" placeholder="Jawaban Anda.." class="text-center" name="jawaban" label="Jawaban"></div>
             </p>
             <p>
+              <label for="pasword_baru">Password Baru</label>
               <div><input type="text" placeholder="*************" class="text-center" name="password_baru" label="Password Baru"></div>
             </p>
             <p>
-              <input type="submit" value="Login" name="submit" style="background: #28d; border-color: transparent;">
-            </p>
-            <p>
-              <a href="Home.html">Lupa Password</a>
+              <input type="submit" value="Submit" name="submit" style="background: #28d; border-color: transparent;" onclick="window.location.href='index.php'">
             </p>
       </fieldset>
     </form>

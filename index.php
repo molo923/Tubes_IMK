@@ -93,7 +93,7 @@ if(isset($_SESSION['login_user'])){
       <fieldset class="col-md-10">
           <div style="display: block;">
                 <img style=" height: 20%;width: 20%;" src="logo.png">
-          <div>
+          </div>
             <p>
               <div><input type="text" placeholder="Nim" class="text-center" name="nim"></div>
             </p>
@@ -104,7 +104,7 @@ if(isset($_SESSION['login_user'])){
               <input type="submit" value="Login" name="submit" style="background: #28d; border-color: transparent;">
             </p>
             <p>
-              <a href="Home.html">Lupa Password</a>
+              <a href="LupaPass.php">Lupa Password</a>
             </p>
       </fieldset>
     </form>
