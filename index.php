@@ -3,12 +3,6 @@
 if(isset($_POST['submit'])){
   $nim = $_POST['nim'];
   $pass = $_POST['password'];
-  if($nim=="admin" && $pass=="admin"){
-    echo("nim dan password benar!");
-  }
-  else{
-    echo("nim dan password salah!");
-  }
 }
 ?>
 <html>
@@ -94,7 +88,7 @@ if(isset($_POST['submit'])){
         </div>
 
     </fieldset> -->
-    <form action="" method="post">
+    <form action="Home.html" method="post">
       <fieldset class="col-md-10">
           <div style="display: block;">
                 <img style=" height: 20%;width: 20%;" src="logo.png">
