@@ -1,3 +1,10 @@
+<?php
+include('session.php');
+
+if(!isset($_SESSION['login_user'])){
+  header("location: index.php");
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -48,7 +55,7 @@
                 <li style="list-style-type:none; display:flex;">
                     <i class="fa fa-home" style="font-size: 45px; margin-top: 10px;margin-left: 5px;"></i>
                     <i class="fa fa-user" style="font-size: 45px; margin-top: 10px;margin-left: 60%;"></i>
-                    <p style="margin-top: 20px; padding-left: 10px; padding-right: 15px;">Gde Agung Brhamana S</p>
+                    <p style="margin-top: 20px; padding-left: 10px; padding-right: 15px;"><?php echo $login_session; ?></p>
                     <button type="button" class="btn btn-danger" style="padding-left: 25px;padding-right: 25px;margin: 16px;margin-top: 12px;">Logout</button>
                 </li>
                 <div class="row">

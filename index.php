@@ -1,10 +1,11 @@
-<!DOCTYPE html>
 <?php
-if(isset($_POST['submit'])){
-  $nim = $_POST['nim'];
-  $pass = $_POST['password'];
+include('login.php');
+
+if(isset($_SESSION['login_user'])){
+  header("location: Home.php");
 }
 ?>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -88,7 +89,7 @@ if(isset($_POST['submit'])){
         </div>
 
     </fieldset> -->
-    <form action="Home.html" method="post">
+    <form action="" method="post">
       <fieldset class="col-md-10">
           <div style="display: block;">
                 <img style=" height: 20%;width: 20%;" src="logo.png">
