@@ -94,18 +94,24 @@
               </div>
             </p>
             <p>
-              <label for="hint">Hint</label>
-              <select name="hint">
-                <option>1. apa kepanjangan KFC?</option>
-              </select>
+              <div class="form-group">
+                <label for="hint">Hint</label>
+                <select name="hint" id="hint">
+                  <option>1. apa kepanjangan KFC?</option>
+                </select>
+              </div>
             </p>
             <p>
-              <label for="jawaban">Jawaban</label>
-              <div><input type="text" placeholder="Jawaban Anda.." class="text-center" name="jawaban" label="Jawaban"></div>
+              <div class="form-group">
+                <label for="jawaban">Jawaban</label>
+                <input type="text" id="jawaban" placeholder="Jawaban Anda.." class="text-center" name="jawaban" label="Jawaban">
+              </div>
             </p>
             <p>
-              <label for="pasword_baru">Password Baru</label>
-              <div><input type="text" placeholder="*************" class="text-center" name="password_baru" label="Password Baru"></div>
+              <div class="form-group">
+                <label for="pasword_baru">Password Baru</label>
+                <input type="text" id="pasword_baru" placeholder="*************" class="text-center" name="password_baru" label="Password Baru">
+              </div>
             </p>
             <p>
               <input type="submit" value="Submit" name="submit" style="background: #28d; border-color: transparent;" onclick="window.location.href='index.php'">
