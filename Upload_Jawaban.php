@@ -61,23 +61,11 @@ if(!isset($_SESSION['login_user'])){
                 <div class="row">
                     <div class="col-md-12" style="background-color: #F5F5F5;margin-left: -2px;height: 50px;width: 102%; border: 1px grey solid;">
                     <center>
-                        <h5 style="padding-top: 10px;">Upload jawaban</h5>
+                        <h5 style="padding-top: 10px;">Manage Account</h5>
                     </center>
                 </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-3" style="background-color: red;">
-                    dsdsd
-                </div>
-                <div class="col-md-4" style="background-color: blue">
-                    ss
-                </div>
-                <div class="col-md-5" style="background-color: green">
-                    asas
-                </div>
-
-                </div>
 
             </div>
 
@@ -87,9 +75,8 @@ if(!isset($_SESSION['login_user'])){
                 <nav class="nav flex-column">
                 	<center>
                 		<a class="nav-link" href="#" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
-					  	<a class="nav-link" href="Upload_Jawaban.php" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
+					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
 					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Nilai</a>
-					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Download</a>
                 	</center>
 
 				</nav>

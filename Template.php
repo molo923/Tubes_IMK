@@ -55,13 +55,13 @@ if(!isset($_SESSION['login_user'])){
                 <li style="list-style-type:none; display:flex;">
                     <i class="fa fa-home" style="font-size: 45px; margin-top: 10px;margin-left: 5px;"></i>
                     <i class="fa fa-user" style="font-size: 45px; margin-top: 10px;margin-left: 60%;"></i>
-                    <p style="margin-top: 20px; padding-left: 10px; padding-right: 15px;">Gde Agung Brhamana S</p>
-                    <button type="button" class="btn btn-danger" style="padding-left: 25px;padding-right: 25px;margin: 16px;margin-top: 12px;">Logout</button>
+                    <p style="margin-top: 20px; padding-left: 10px; padding-right: 15px;"><?php echo $login_session; ?></p>
+                    <button type="button" class="btn btn-danger" style="padding-left: 25px;padding-right: 25px;margin: 16px;margin-top: 12px;" onclick="window.location.href='logout.php'">Logout</button>
                 </li>
                 <div class="row">
                     <div class="col-md-12" style="background-color: #F5F5F5;margin-left: -2px;height: 50px;width: 102%; border: 1px grey solid;">
                     <center>
-                        <h5 style="padding-top: 10px;">Manage Account</h5>
+                        <h5 style="padding-top: 10px;">Upload jawaban</h5>
                     </center>
                 </div>
                 </div>
@@ -87,12 +87,9 @@ if(!isset($_SESSION['login_user'])){
                 <nav class="nav flex-column">
                 	<center>
                 		<a class="nav-link" href="#" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
-					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
+					  	<a class="nav-link" href="Upload_Jawaban.php" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
 					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Nilai</a>
 					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Download</a>
-					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Jadwa</a>
-					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Data IFLAB</a>
-					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Manage Account</a>
                 	</center>
 
 				</nav>
