@@ -75,7 +75,7 @@ if(!isset($_SESSION['login_user'])){
                 <nav class="nav flex-column">
                 	<center>
                 		<a class="nav-link" href="#" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
-					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
+					  	<a class="nav-link" href="Upload_Jawaban.php" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
 					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Nilai</a>
                 	</center>
 
