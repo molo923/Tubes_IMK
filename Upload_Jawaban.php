@@ -79,7 +79,7 @@ if(!isset($_SESSION['login_user'])){
 					  	      <a class="nav-link" href="Nilai.php" style="color: white;border-bottom:1px solid #bbb;">Nilai</a>
                 	</center>
 
-				</nav>
+				        </nav>
             </div>
         </div>
 
