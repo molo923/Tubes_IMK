@@ -9,7 +9,7 @@ if(!isset($_SESSION['login_user'])){
 <html>
 
 <head>
-    <title>Tes Awal</title>
+    <title>Manage_akun</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="logo.png">
@@ -61,23 +61,27 @@ if(!isset($_SESSION['login_user'])){
                 <div class="row">
                     <div class="col-md-12" style="background-color: #F5F5F5;margin-left: -2px;height: 50px;width: 102%; border: 1px grey solid;">
                     <center>
-                        <h5 style="padding-top: 10px;">Upload jawaban</h5>
+                        <h5 style="padding-top: 10px;">Praktikum Jaringan Komputer</h5>
                     </center>
+                    <h5>Tes Awal</h5>
+                    <form action="/action_page.php">
+                      1. IP adalah ?<br>   
+                      <input type="radio" name="soal1" value="Internet Potokol"> Internet Potokol<br>
+                      <input type="radio" name="soal1" value="Internet Pakpol"> Internet Pakpol<br>
+                      <input type="radio" name="soal1" value="Indra Potokol"> Indra Potokol
+                      <br><br>
+                      2.10.30.40.123 merupakan contoh<br>    
+                      <input type="radio" name="soal2" value="IPv6"> IPv6<br>
+                      <input type="radio" name="soal2" value="IPv4"> IPv4<br>
+                      <input type="radio" name="soal2" value="IP Man"> IP Man
+                      <br><br>
+                      
+
+                      <input type="submit" value="Finish" name="submit" style="background: green; color: white; border-color: transparent;" onclick="window.location.href='index.php'">
+                    </form>
                 </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-3" style="background-color: red;">
-                    dsdsd
-                </div>
-                <div class="col-md-4" style="background-color: blue">
-                    ss
-                </div>
-                <div class="col-md-5" style="background-color: green">
-                    asas
-                </div>
-
-                </div>
 
             </div>
 
@@ -86,9 +90,9 @@ if(!isset($_SESSION['login_user'])){
             <div class="side">
                 <nav class="nav flex-column">
                 	<center>
-                    <a class="nav-link" href="Mulai_Praktikum.php" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
-					  	      <a class="nav-link" href="Upload_Jawaban.php" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
-					  	      <a class="nav-link" href="Nilai.php" style="color: white;border-bottom:1px solid #bbb;">Nilai</a>
+                		<a class="nav-link" href="Mulai_praktikum.php" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
+					  	<a class="nav-link" href="Upload_Jawaban.php" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
+					  	<a class="nav-link" href="#" style="color: white;border-bottom:1px solid #bbb;">Nilai</a>
                 	</center>
 
 				</nav>
