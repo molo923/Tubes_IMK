@@ -9,7 +9,7 @@ if(!isset($_SESSION['login_user'])){
 <html>
 
 <head>
-    <title>Manage_akun</title>
+    <title>History Upload Jawaban</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="logo.png">
@@ -61,23 +61,11 @@ if(!isset($_SESSION['login_user'])){
                 <div class="row">
                     <div class="col-md-12" style="background-color: #F5F5F5;margin-left: -2px;height: 50px;width: 102%; border: 1px grey solid;">
                     <center>
-                        <h5 style="padding-top: 10px;">Upload jawaban</h5>
+                        <h5 style="padding-top: 10px;">Manage Account</h5>
                     </center>
                 </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-3" style="background-color: red;">
-                    dsdsd
-                </div>
-                <div class="col-md-4" style="background-color: blue">
-                    ss
-                </div>
-                <div class="col-md-5" style="background-color: green">
-                    asas
-                </div>
-
-                </div>
 
             </div>
 
@@ -86,7 +74,7 @@ if(!isset($_SESSION['login_user'])){
             <div class="side">
                 <nav class="nav flex-column">
                 	<center>
-                		<a class="nav-link" href="Mulai_Praktikum" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
+                    <a class="nav-link" href="Mulai_Praktikum" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
 					  	      <a class="nav-link" href="Upload_Jawaban.php" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
 					  	      <a class="nav-link" href="Nilai.php" style="color: white;border-bottom:1px solid #bbb;">Nilai</a>
                 	</center>

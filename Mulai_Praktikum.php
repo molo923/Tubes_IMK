@@ -9,7 +9,7 @@ if(!isset($_SESSION['login_user'])){
 <html>
 
 <head>
-    <title>Manage_akun</title>
+    <title>Mulai Praktikum</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="logo.png">
@@ -86,7 +86,7 @@ if(!isset($_SESSION['login_user'])){
             <div class="side">
                 <nav class="nav flex-column">
                 	<center>
-                		<a class="nav-link" href="Mulai_Praktikum" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
+                    <a class="nav-link" href="Mulai_Praktikum" style="color: white; border-bottom:1px solid #bbb;">Mulai Praktikum</a>
 					  	      <a class="nav-link" href="Upload_Jawaban.php" style="color: white;border-bottom:1px solid #bbb;">Upload Jawaban</a>
 					  	      <a class="nav-link" href="Nilai.php" style="color: white;border-bottom:1px solid #bbb;">Nilai</a>
                 	</center>
